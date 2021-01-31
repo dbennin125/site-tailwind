@@ -25,7 +25,7 @@ export const Tech = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-65}
+          offset={-55}
           duration={750}
           to="contact"
         >
