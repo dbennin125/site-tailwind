@@ -21,7 +21,7 @@ export const Tech = () => {
           <p className="tech-font"> Postgres, MongoDB</p>
         </h1>
         <Link
-          className="pt-8"
+          className="pt-8 cursor-pointer"
           activeClass="active"
           spy={true}
           smooth={true}

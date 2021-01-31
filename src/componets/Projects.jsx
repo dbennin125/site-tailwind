@@ -6,6 +6,7 @@ export const Projects = () => {
     <div className="h-screen center-content px-3" id="tech">
       <p>yooo</p>
       <Link
+        className="py-2 cursor-pointer"
         activeClass="active"
         spy={true}
         smooth={true}

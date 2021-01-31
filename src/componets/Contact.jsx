@@ -58,7 +58,7 @@ export const Contact = () => {
             <a
               href="mailto:dbennington125@gmail.com"
               alt="link to email:dbennington125@gmail.com"
-              className="contact-font text-left"
+              className="contact-font text-left cursor-pointer"
             >
               dbennington125@gmail
             </a>
@@ -82,7 +82,7 @@ export const Contact = () => {
           <a
             href="https://www.linkedin.com/in/dan-bennington/"
             alt="link to LinkedIn:https://www.linkedin.com/in/dan-bennington/"
-            className="contact-font text-left"
+            className="contact-font text-left cursor-pointer"
           >
             in/dan-bennington
           </a>
