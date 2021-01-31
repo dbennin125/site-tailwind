@@ -7,7 +7,7 @@ export const Splash = () => {
       className="bg-white h-screen flex flex-col justify-center items-center py-40 z-1"
       id="splash"
     >
-      <h1 className="font-mono lg:text-10xl md:text-8xl sm:text-5xl text-3xl mb-4">
+      <h1 className="font-mono text-center lg:text-10xl md:text-8xl sm:text-5xl text-3xl mb-4">
         Let’s make something!
       </h1>
       <p className="text-center font-mono font-black mb-14">
@@ -23,11 +23,11 @@ export const Splash = () => {
         spy={true}
         smooth={true}
         offset={0}
-        duration={500}
+        duration={750}
         to="about"
       >
         <svg
-          className="w-6 h-6 lg:mr-3 md:mr-4"
+          className="w-6 h-6 mr-3"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -37,12 +37,12 @@ export const Splash = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
-            d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+            d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
           />
         </svg>
-        Scroll
+        About Me
         <svg
-          className="w-6 h-6 lg:ml-3 md:ml-4"
+          className="w-6 h-6 ml-3"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -52,7 +52,7 @@ export const Splash = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
-            d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+            d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
           />
         </svg>
       </Link>

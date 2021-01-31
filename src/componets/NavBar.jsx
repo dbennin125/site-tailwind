@@ -6,9 +6,9 @@ export const NavBar = ({ toggle }) => {
   //maybe too much for site
   //hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 sticky z-40 top-16
   return (
-    <div className="sticky top-0 z-5">
+    <div className="sticky z-40 top-0">
       <nav
-        className="font-mono flex justify-between items-center h-16 bg-#FEFEFE text-#000000 shadow-md "
+        className="font-mono flex justify-between items-center h-20 bg-#FEFEFE text-#000000 shadow-md z-40"
         role="navigation"
       >
         <Link
@@ -22,7 +22,7 @@ export const NavBar = ({ toggle }) => {
         >
           Dan Bennington
         </Link>
-        <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
+        <div className="z-40 px-4 cursor-pointer md:hidden" onClick={toggle}>
           <svg
             className="w-6 h-6"
             fill="none"
@@ -39,14 +39,14 @@ export const NavBar = ({ toggle }) => {
           </svg>
         </div>
         {/* AddBack Hidden after block line 36 */}
-        <div className="pr-8 md:block hidden">
+        <div className="z-40 pr-8 md:block hidden">
           <Link
             activeClass="active"
             spy={true}
             smooth={true}
             offset={0}
             duration={500}
-            className="p-4 cursor-pointer "
+            className="z-40 p-4 cursor-pointer "
             to="splash"
           >
             Top
@@ -57,7 +57,7 @@ export const NavBar = ({ toggle }) => {
             smooth={true}
             offset={0}
             duration={500}
-            className="p-4 cursor-pointer"
+            className="z-40 p-4 cursor-pointer"
             to="about"
           >
             About
@@ -68,7 +68,7 @@ export const NavBar = ({ toggle }) => {
             smooth={true}
             offset={0}
             duration={500}
-            className="p-4 cursor-pointer"
+            className="z-40 p-4 cursor-pointer"
             to="tech"
           >
             Tech
@@ -80,7 +80,7 @@ export const NavBar = ({ toggle }) => {
             offset={0}
             duration={500}
             to="contact"
-            className="p-4 cursor-pointer"
+            className="z-40 p-4 cursor-pointer"
           >
             Contact
           </Link>

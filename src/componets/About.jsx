@@ -3,7 +3,7 @@ import React from "react";
 export const About = () => {
   return (
     <div className="h-screen center-content" id="about">
-      <p className="about-font">
+      <p className="about-font mb-2">
         I’m a full stack software engineer with a knack for crafting clean,
         tested, and modular code. With a keen eye on the end goal, whether in a
         mob, pairs, or solo, I take pride in executing the task, solving
@@ -12,7 +12,7 @@ export const About = () => {
         is always the objective. I own a very cute dog who has been known to
         make appearances on Zoom calls.
       </p>
-      {/* <img */}
+      <img className="h-1/3" src="/festiveGus.jpg" alt="Gus the dog" />
     </div>
   );
 };

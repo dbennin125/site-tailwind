@@ -5,12 +5,15 @@ export const Contact = () => {
   // m:h-screen flex-space-between justify-center items-center
   // sm:h-screen h-screen flex flex-space-between justify-center items-center
   return (
-    <div id="contact" className="bg-white h-screen ">
+    <div
+      id="contact"
+      className="bg-white h-screen flex flex-col justify-center items-center"
+    >
       <ul
         className="bg-white flex 
-   
+        h-20
         flex-col justify-center items-center
-        md:flex-row justify-center items-center
+        lg:flex-row justify-center items-center
         "
       >
         {/* <h1 className="contact-card font-mono text-3xl shadow-2xl">Contact</h1> */}
@@ -37,7 +40,7 @@ export const Contact = () => {
           </svg>
           <h1 className="contact-font">portland, or, usa</h1>
         </li>
-        <li className="contact-card">
+        <li className="contact-card xl:mr-12 ml:12 flex-shrink-0 lg:mr-12 ml-12">
           <svg
             className="w-8 h-8 mb-2"
             fill="none"
@@ -52,15 +55,17 @@ export const Contact = () => {
               d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
             />
           </svg>
-          <a
-            href="mailto:dbennington125@gmail.com"
-            alt="link to email:dbennington125@gmail.com"
-            className="contact-font"
-          >
-            dbennington125@gmail
-          </a>
+          <address>
+            <a
+              href="mailto:dbennington125@gmail.com"
+              alt="link to email:dbennington125@gmail.com"
+              className="contact-font"
+            >
+              dbennington125@gmail
+            </a>
+          </address>
         </li>
-        <li className="contact-card mb-40">
+        <li className="contact-card ">
           <svg
             className="w-8 h-8 m-2"
             fill="none"
@@ -80,7 +85,7 @@ export const Contact = () => {
             alt="link to LinkedIn:https://www.linkedin.com/in/dan-bennington/"
             className="contact-font"
           >
-            in/dan-bennington
+            dan-bennington
           </a>
         </li>
       </ul>

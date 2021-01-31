@@ -6,6 +6,7 @@ import { Dropdown } from "./componets/Dropdown";
 import { Footer } from "./componets/Footer";
 import { NavBar } from "./componets/NavBar";
 import { Splash } from "./componets/Splash";
+import { Tech } from "./componets/Tech";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,7 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Splash />
       <About />
+      <Tech />
       <Contact />
       <Footer />
     </>
