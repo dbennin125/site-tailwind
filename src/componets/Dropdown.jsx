@@ -25,7 +25,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
         className="p-4 cursor-pointer"
         to="splash"
       >
-        Top
+        Intro
       </Link>
       <Link
         activeClass="active"
