@@ -6,7 +6,7 @@ export const NavBar = ({ toggle }) => {
   //maybe too much for site
   //hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 sticky z-40 top-16
   return (
-    <div className="sticky top-0 z-99">
+    <div className="sticky top-0 z-5">
       <nav
         className="font-mono flex justify-between items-center h-16 bg-#FEFEFE text-#000000 shadow-md "
         role="navigation"

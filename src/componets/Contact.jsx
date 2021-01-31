@@ -5,17 +5,18 @@ export const Contact = () => {
   // m:h-screen flex-space-between justify-center items-center
   // sm:h-screen h-screen flex flex-space-between justify-center items-center
   return (
-    <div className="bg-white h-screen">
+    <div id="contact" className="bg-white h-screen ">
       <ul
-        className="bg-white h-screen flex 
+        className="bg-white flex 
+   
         flex-col justify-center items-center
         md:flex-row justify-center items-center
         "
       >
         {/* <h1 className="contact-card font-mono text-3xl shadow-2xl">Contact</h1> */}
-        <li className="contact-card" id="contact">
+        <li className="contact-card">
           <svg
-            className="w-8 h-8 mb-4"
+            className="w-8 h-8 mb-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -38,7 +39,7 @@ export const Contact = () => {
         </li>
         <li className="contact-card">
           <svg
-            className="w-8 h-8 mb-4"
+            className="w-8 h-8 mb-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -59,9 +60,9 @@ export const Contact = () => {
             dbennington125@gmail
           </a>
         </li>
-        <li className="contact-card -mb-40">
+        <li className="contact-card mb-40">
           <svg
-            className="w-8 h-8"
+            className="w-8 h-8 m-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

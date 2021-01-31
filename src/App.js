@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { Contact } from "./componets/Contact";
-import { Content } from "./componets/Content";
+import { About } from "./componets/About";
 import { Dropdown } from "./componets/Dropdown";
 import { Footer } from "./componets/Footer";
 import { NavBar } from "./componets/NavBar";
@@ -29,7 +29,7 @@ function App() {
       <NavBar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Splash />
-      <Content />
+      <About />
       <Contact />
       <Footer />
     </>
