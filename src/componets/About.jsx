@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <div className="h-screen center-content" id="about">
+    <div className="h-screen center-content px-3" id="about">
       <p className="about-font mb-10">
         I’m a full stack software engineer with a knack for crafting clean,
         tested, and modular code. With a keen eye on the end goal, whether in a
