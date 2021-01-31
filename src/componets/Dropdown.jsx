@@ -43,7 +43,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-230}
         duration={500}
         onClick={toggle}
         className="p-4 cursor-pointer"

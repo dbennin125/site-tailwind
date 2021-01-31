@@ -11,7 +11,7 @@ export const Contact = () => {
     >
       <ul
         className="bg-white flex 
-        h-20
+        h-screen
         flex-col justify-center items-center
         lg:flex-row justify-center items-center
         "
@@ -38,7 +38,7 @@ export const Contact = () => {
               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
-          <h1 className="contact-font">portland, or, usa</h1>
+          <h1 className="contact-font text-left">portland, or, usa</h1>
         </li>
         <li className="contact-card xl:mr-12 ml:12 flex-shrink-0 lg:mr-12 ml-12">
           <svg
@@ -59,7 +59,7 @@ export const Contact = () => {
             <a
               href="mailto:dbennington125@gmail.com"
               alt="link to email:dbennington125@gmail.com"
-              className="contact-font"
+              className="contact-font text-left"
             >
               dbennington125@gmail
             </a>
@@ -83,9 +83,9 @@ export const Contact = () => {
           <a
             href="https://www.linkedin.com/in/dan-bennington/"
             alt="link to LinkedIn:https://www.linkedin.com/in/dan-bennington/"
-            className="contact-font"
+            className="contact-font text-left"
           >
-            dan-bennington
+            in/dan-bennington
           </a>
         </li>
       </ul>
