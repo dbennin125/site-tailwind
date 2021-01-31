@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState, useEffect } from "react";
+import { Contact } from "./componets/Contact";
+import { Content } from "./componets/Content";
+import { Dropdown } from "./componets/Dropdown";
+import { Footer } from "./componets/Footer";
+import { NavBar } from "./componets/NavBar";
+import { Splash } from "./componets/Splash";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    const hideMenu = () => {
+      if (window.innerWidth > 768 && isOpen) {
+        setIsOpen(false);
+      }
+    };
+    window.addEventListener("resize", hideMenu);
+    return () => {
+      window.removeEventListener("resize", hideMenu);
+    };
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar toggle={toggle} />
+      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Splash />
+      <Content />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
