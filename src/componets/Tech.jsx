@@ -15,7 +15,8 @@ export const Tech = () => {
           <p className="tech-font">JavaScript, Python, TypeScript, HTML/CSS</p>
           <p className="text-2xl mt-3 mb-2">Libraries/Frameworks</p>
           <p className="tech-font">
-            React, Node.js, Express.js, Chakra, TypeORM, Next.js, Mongoose
+            React, Node.js, Express.js, Chakra, TailWindCSS, TypeORM, Next.js,
+            Mongoose
           </p>
           <p className="text-2xl mt-3 mb-2">Databases</p>
           <p className="tech-font"> Postgres, MongoDB</p>
