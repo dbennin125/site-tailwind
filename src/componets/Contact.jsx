@@ -64,7 +64,7 @@ export const Contact = () => {
             </a>
           </address>
         </li>
-        <li className="contact-card lg:mr-12 md:mb-2 sm:-mb-20">
+        <li className="contact-card lg:mr-12 md:mb-2 sm:-mb-40">
           <svg
             className="w-8 h-8 m-2"
             fill="none"

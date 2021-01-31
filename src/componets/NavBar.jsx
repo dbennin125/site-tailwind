@@ -8,7 +8,7 @@ export const NavBar = ({ toggle }) => {
   return (
     <div className="bg-white sticky z-40 top-0">
       <nav
-        className="font-mono flex justify-between items-center h-20 bg-#FEFEFE text-#000000 shadow-md z-40"
+        className="font-mono flex justify-between items-center h-20 bg-white text-black shadow-md z-40"
         role="navigation"
       >
         <Link
@@ -18,7 +18,7 @@ export const NavBar = ({ toggle }) => {
           smooth={true}
           offset={0}
           duration={500}
-          className="pl-10"
+          className="pl-7 text-xl"
         >
           Dan Bennington
         </Link>
