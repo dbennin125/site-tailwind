@@ -26,3 +26,7 @@ address {
   font-style: normal;
   text-transform: none;
 }
+
+.tech-font {
+  @apply font-mono font-black lg:text-base text-base;
+}

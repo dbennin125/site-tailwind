@@ -11,13 +11,12 @@ export const Contact = () => {
     >
       <ul
         className="bg-white flex 
-        h-screen
         flex-col justify-center items-center
         lg:flex-row justify-center items-center
         "
       >
         {/* <h1 className="contact-card font-mono text-3xl shadow-2xl">Contact</h1> */}
-        <li className="contact-card">
+        <li className="contact-card pr-12">
           <svg
             className="w-8 h-8 mb-2"
             fill="none"
@@ -38,9 +37,9 @@ export const Contact = () => {
               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
-          <h1 className="contact-font text-left">portland, or, usa</h1>
+          <h1 className="contact-font">portland, or, usa</h1>
         </li>
-        <li className="contact-card xl:mr-12 ml:12 flex-shrink-0 lg:mr-12 ml-12">
+        <li className="contact-card pr-12">
           <svg
             className="w-8 h-8 mb-2"
             fill="none"
@@ -59,13 +58,13 @@ export const Contact = () => {
             <a
               href="mailto:dbennington125@gmail.com"
               alt="link to email:dbennington125@gmail.com"
-              className="contact-font text-left"
+              className="contact-font"
             >
               dbennington125@gmail
             </a>
           </address>
         </li>
-        <li className="contact-card ">
+        <li className="contact-card pr-12 md:mb-2 sm:-mb-20">
           <svg
             className="w-8 h-8 m-2"
             fill="none"
@@ -83,7 +82,7 @@ export const Contact = () => {
           <a
             href="https://www.linkedin.com/in/dan-bennington/"
             alt="link to LinkedIn:https://www.linkedin.com/in/dan-bennington/"
-            className="contact-font text-left"
+            className="contact-font"
           >
             in/dan-bennington
           </a>
