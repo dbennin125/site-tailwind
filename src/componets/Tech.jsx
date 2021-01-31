@@ -9,8 +9,7 @@ export const Tech = () => {
           Buzzwords
           <p className="text-2xl mt-3 mb-2">Tools</p>
           <p className="tech-font">
-            Git, GitHub, Jest, Enzyme, QUnit, Heroku, Netlify, React Testing
-            Library
+            Git, GitHub, Jest, Enzyme, QUnit, Heroku, Netlify
           </p>
           <p className="text-2xl mt-3 mb-2">Languages</p>
           <p className="tech-font">JavaScript, Python, TypeScript, HTML/CSS</p>

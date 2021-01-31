@@ -37,7 +37,7 @@ export const Contact = () => {
               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
-          <h1 className="contact-font text-left">portland, or, usa</h1>
+          <h1 className="contact-font text-left">portland or, usa</h1>
         </li>
         <li className="contact-card lg:mr-12">
           <svg
