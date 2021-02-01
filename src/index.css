@@ -18,8 +18,10 @@
   @apply flex flex-col justify-center items-center;
 }
 
-a:link:active {
-  color: purple;
+.active {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
 }
 
 address {

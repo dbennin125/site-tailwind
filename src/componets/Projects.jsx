@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export const Projects = () => {
   return (
-    <div className="h-screen center-content px-3" id="tech">
+    <div className="h-screen center-content px-5 t-20 pt-20 -mt-20" id="tech">
       <p>yooo</p>
       <Link
         className="py-2 cursor-pointer"

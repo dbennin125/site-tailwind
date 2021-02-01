@@ -7,7 +7,7 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="bg-white h-screen flex flex-col justify-center items-center px-3"
+      className="bg-white h-screen flex flex-col justify-center items-center px-5 t-20 pt-20"
     >
       <ul
         className="bg-white flex 

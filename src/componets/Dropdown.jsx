@@ -9,8 +9,8 @@ export const Dropdown = ({ isOpen, toggle }) => {
           ? `grid h-3/5 grid-rows-4 text-center 
           items-center bg-white text-black sticky 
           z-40 top-16 hover:bg-white hover:shadow-lg
-          focus:ring-2 focus:ring-red-500
-          active:red
+          focus:ring-2 focus:ring-red-500 -mt-30
+          :active:red
           `
           : "block hidden"
       }
@@ -19,8 +19,8 @@ export const Dropdown = ({ isOpen, toggle }) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-230}
-        duration={500}
+        offset={-200}
+        duration={750}
         onClick={toggle}
         className="p-4 cursor-pointer"
         to="splash"
@@ -31,8 +31,8 @@ export const Dropdown = ({ isOpen, toggle }) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-260}
-        duration={500}
+        offset={-230}
+        duration={750}
         onClick={toggle}
         className="p-4 cursor-pointer"
         to="about"
@@ -44,7 +44,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
         spy={true}
         smooth={true}
         offset={-230}
-        duration={500}
+        duration={750}
         onClick={toggle}
         className="p-4 cursor-pointer"
         to="tech"
@@ -55,8 +55,8 @@ export const Dropdown = ({ isOpen, toggle }) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-280}
-        duration={500}
+        offset={-250}
+        duration={750}
         onClick={toggle}
         className="p-4 cursor-pointer"
         to="contact"
