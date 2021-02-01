@@ -10,7 +10,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
           items-center bg-white text-black sticky 
           z-40 top-16 hover:bg-white hover:shadow-lg
           focus:ring-2 focus:ring-red-500 -mt-30
-          :active:red
+  
           `
           : "block hidden"
       }

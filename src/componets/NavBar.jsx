@@ -19,7 +19,7 @@ export const NavBar = ({ toggle }) => {
           to="splash"
           spy={true}
           smooth={true}
-          offset={1}
+          offset={-5}
           duration={500}
           className="pl-7 text-2xl"
         >
@@ -46,7 +46,7 @@ export const NavBar = ({ toggle }) => {
           <Link
             spy={true}
             smooth={true}
-            offset={1}
+            offset={-5}
             duration={500}
             className="p-4 cursor-pointer "
             to="splash"
@@ -57,7 +57,7 @@ export const NavBar = ({ toggle }) => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={5}
+            offset={1}
             duration={500}
             className="p-4 cursor-pointer"
             to="about"
@@ -68,7 +68,7 @@ export const NavBar = ({ toggle }) => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={4}
+            offset={0}
             duration={500}
             className="p-4 cursor-pointer"
             to="tech"
