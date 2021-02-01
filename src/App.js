@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Contact } from "./componets/Contact";
 import { About } from "./componets/About";
 import { Dropdown } from "./componets/Dropdown";
-import { Footer } from "./componets/Footer";
+// import { Footer } from "./componets/Footer";
 import { NavBar } from "./componets/NavBar";
 import { Splash } from "./componets/Splash";
 import { Tech } from "./componets/Tech";
@@ -35,7 +35,7 @@ function App() {
       <Projects />
       <Tech />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
