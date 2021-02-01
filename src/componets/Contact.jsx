@@ -58,13 +58,13 @@ export const Contact = () => {
             <a
               href="mailto:dbennington125@gmail.com"
               alt="link to email:dbennington125@gmail.com"
-              className="contact-font text-left"
+              className="contact-font text-left cursor-pointer"
             >
               dbennington125@gmail
             </a>
           </address>
         </li>
-        <li className="contact-card lg:mr-12 md:mb-2 sm:-mb-20">
+        <li className="contact-card lg:mr-12 md:mb-2 sm:-mb-40">
           <svg
             className="w-8 h-8 m-2"
             fill="none"
@@ -82,7 +82,7 @@ export const Contact = () => {
           <a
             href="https://www.linkedin.com/in/dan-bennington/"
             alt="link to LinkedIn:https://www.linkedin.com/in/dan-bennington/"
-            className="contact-font text-left"
+            className="contact-font text-left cursor-pointer"
           >
             in/dan-bennington
           </a>
