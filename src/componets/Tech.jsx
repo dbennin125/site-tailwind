@@ -5,7 +5,7 @@ export const Tech = () => {
   return (
     <>
       <div
-        className="h-screen center-content text-center px-5 t-20 pt-20 -mt-18"
+        className="h-screen center-content text-center px-5 t-20 pt-20"
         id="buzzword"
       >
         <h1 className="font-mono text-4xl">
@@ -34,7 +34,7 @@ export const Tech = () => {
           to="contact"
         >
           <svg
-            className="w-6 h-6 mr-3"
+            className="w-6 h-6 mb-3"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

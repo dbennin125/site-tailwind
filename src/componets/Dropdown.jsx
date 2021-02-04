@@ -19,7 +19,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-200}
+        offset={-222}
         duration={750}
         onClick={toggle}
         className="p-4 cursor-pointer"
@@ -31,7 +31,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-230}
+        offset={-220}
         duration={750}
         onClick={toggle}
         className="p-4 cursor-pointer"
@@ -55,7 +55,7 @@ export const Dropdown = ({ isOpen, toggle }) => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-250}
+        offset={-230}
         duration={750}
         onClick={toggle}
         className="p-4 cursor-pointer"

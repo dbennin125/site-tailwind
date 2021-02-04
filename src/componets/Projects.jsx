@@ -3,8 +3,8 @@ import { Link } from "react-scroll";
 
 export const Projects = () => {
   return (
-    <div className="h-screen center-content px-5 t-20 pt-20 -mt-20" id="tech">
-      <p>yooo</p>
+    <div className="h-screen center-content px-5 t-20 pt-20 mt-3" id="tech">
+      <p>Under construction</p>
       <Link
         className="py-2 cursor-pointer"
         activeClass="active"
@@ -15,7 +15,7 @@ export const Projects = () => {
         to="buzzword"
       >
         <svg
-          className="w-6 h-6 mr-3"
+          className="w-6 h-6 mb-3"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

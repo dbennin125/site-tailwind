@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 export const Splash = () => {
   return (
     <div
-      className="bg-white h-screen flex flex-col justify-center items-center py-40 px-5 t-20 pt-30 -mt-20"
+      className="bg-red-500 h-screen flex flex-col justify-center items-center py-40 px-3 -mb-21 -t-20 "
       id="splash"
     >
-      <h1 className="font-mono pb-10 text-center lg:text-10xl md:text-8xl sm:text-5xl text-3xl mb-4">
+      <h1 className="font-mono pt-10 text-center lg:text-10xl md:text-8xl sm:text-5xl text-3xl mb-4">
         Let’s make something!
       </h1>
       <p className="text-center  font-mono font-black mb-14">
@@ -22,7 +22,7 @@ export const Splash = () => {
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={5}
+        offset={8}
         duration={750}
         to="about"
       >

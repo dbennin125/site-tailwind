@@ -11,7 +11,7 @@
 }
 
 .about-font {
-  @apply font-mono font-black lg:text-lg;
+  @apply font-mono text-center font-black lg:text-lg;
 }
 
 .center-content {

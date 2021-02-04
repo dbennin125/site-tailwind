@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App to match screenshot 1`] = `<App />`;
+
+exports[`renders true to be equal to true 1`] = `<App />`;
