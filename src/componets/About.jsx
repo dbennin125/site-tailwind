@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 export const About = () => {
   return (
     <div
-      className="h-screen center-content t-20 pt-20 px-3 mt-22 bg-yellow-200"
+      className="h-screen center-content t-20 pt-20 px-3 mt-22 bg-white"
       id="about"
     >
       <p className="about-font mt-7 pb-10 ">

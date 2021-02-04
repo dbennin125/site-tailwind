@@ -7,7 +7,7 @@ export const NavBar = ({ toggle }) => {
   //hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 sticky z-40 top-16
   return (
     <nav
-      className="-mb-20 font-mono flex justify-between items-center h-20 bg-green-200 text-black shadow-md z-40 bg-white sticky z-40 top-0"
+      className="-mb-20 font-mono flex justify-between items-center h-20 bg-white text-black shadow-md z-40 bg-white sticky z-40 top-0"
       role="navigation"
     >
       {/* <h1 className="pl-7 xl:text-xl md:text-2xl text-black">
@@ -18,7 +18,7 @@ export const NavBar = ({ toggle }) => {
         to="splash"
         spy={true}
         smooth={true}
-        offset={-2}
+        offset={3}
         duration={750}
         className="pl-7 text-2xl"
       >
