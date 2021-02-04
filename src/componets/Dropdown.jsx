@@ -8,8 +8,7 @@ export const Dropdown = ({ onOpen, toggle }) => {
         onOpen
           ? `grid h-3/5 grid-rows-4 text-center 
           items-center bg-white text-black sticky 
-          z-40 top-16 hover:bg-white hover:shadow-lg
-          focus:ring-2 focus:ring-red-500 -mt-30
+          z-40 top-16 -mt-30
   
           `
           : "block hidden"

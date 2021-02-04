@@ -7,7 +7,7 @@ export const Splash = () => {
       className="bg-white h-screen flex flex-col justify-center items-center py-40 px-3 -mb-21 -t-20 "
       id="splash"
     >
-      <h1 className="font-mono pt-10 text-center lg:text-10xl md:text-8xl sm:text-5xl text-3xl mb-4">
+      <h1 className="font-mono text-center lg:text-10xl md:text-8xl sm:text-5xl text-3xl mb-4">
         Let’s make something!
       </h1>
       <p className="text-center  font-mono font-black mb-14">

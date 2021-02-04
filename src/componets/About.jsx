@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 export const About = () => {
   return (
     <div
-      className="h-screen center-content t-20 pt-20 px-3 mt-22 bg-white"
+      className="h-screen center-content t-20 pt-5 px-3 mt-22 bg-white"
       id="about"
     >
-      <p className="about-font mt-7 pb-10 ">
+      <p className="about-font mt-7 text-sm pb-10 ">
         I’m a full stack software engineer with a knack for crafting clean,
         tested, and modular code. With a keen eye on the end goal, whether in a
         mob, pairs, or solo, I take pride in executing the task, solving
