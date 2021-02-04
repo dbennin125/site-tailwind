@@ -17,12 +17,12 @@ export const About = () => {
         make appearances on Zoom calls.
       </p>
       <img
-        className="shadow-md h-2/5 w-auto"
+        className="shadow-md h-1/3 w-auto"
         src="/festiveGus.jpg"
         alt="Gus the dog"
       />
       <Link
-        className="pt-8 cursor-pointer shadow-black "
+        className="pt-8 cursor-pointer "
         activeClass="active"
         spy={true}
         smooth={true}
