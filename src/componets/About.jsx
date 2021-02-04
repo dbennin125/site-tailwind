@@ -16,9 +16,13 @@ export const About = () => {
         is always the objective. I own a very cute dog who has been known to
         make appearances on Zoom calls.
       </p>
-      <img className="h-2/5 w-auto" src="/festiveGus.jpg" alt="Gus the dog" />
+      <img
+        className="shadow-md h-2/5 w-auto"
+        src="/festiveGus.jpg"
+        alt="Gus the dog"
+      />
       <Link
-        className="pt-8 cursor-pointer"
+        className="pt-8 cursor-pointer shadow-black "
         activeClass="active"
         spy={true}
         smooth={true}

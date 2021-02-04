@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <NavBar toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
+      <Dropdown onOpen={isOpen} toggle={toggle} />
       <Splash />
       <About />
       <Projects />

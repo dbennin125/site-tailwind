@@ -6,7 +6,7 @@ export const Projects = () => {
     <div className="h-screen center-content px-5 t-20 pt-20 mt-3" id="tech">
       <p>Under construction</p>
       <Link
-        className="py-2 cursor-pointer"
+        className="py-2 cursor-pointer hover:shadow-2xl"
         activeClass="active"
         spy={true}
         smooth={true}
@@ -15,7 +15,7 @@ export const Projects = () => {
         to="buzzword"
       >
         <svg
-          className="w-6 h-6 mb-3"
+          className="w-6 h-6 mb-3 hover:bg-white hover:shadow-2xl"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

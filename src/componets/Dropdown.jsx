@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-export const Dropdown = ({ isOpen, toggle }) => {
+export const Dropdown = ({ onOpen, toggle }) => {
   return (
     <div
       className={
-        isOpen
+        onOpen
           ? `grid h-3/5 grid-rows-4 text-center 
           items-center bg-white text-black sticky 
           z-40 top-16 hover:bg-white hover:shadow-lg

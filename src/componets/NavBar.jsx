@@ -20,7 +20,7 @@ export const NavBar = ({ toggle }) => {
         smooth={true}
         offset={3}
         duration={750}
-        className="pl-7 text-2xl"
+        className="pl-7 md:text-2xl text-xl"
       >
         Dan Bennington
       </Link>
@@ -78,7 +78,7 @@ export const NavBar = ({ toggle }) => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={7}
+          offset={-3}
           duration={750}
           to="contact"
           className="p-4 cursor-pointer"
