@@ -7,7 +7,7 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="bg-white h-screen flex flex-col justify-center items-center px-3"
+      className="bg-white h-screen center-content px-5 t-20 pt-20 -mb-40"
     >
       <ul
         className="bg-white flex 
@@ -64,7 +64,7 @@ export const Contact = () => {
             </a>
           </address>
         </li>
-        <li className="contact-card lg:mr-12 md:mb-2 sm:-mb-40">
+        <li className="contact-card lg:mr-12 md:mb-2">
           <svg
             className="w-8 h-8 m-2"
             fill="none"

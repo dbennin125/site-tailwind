@@ -11,15 +11,17 @@
 }
 
 .about-font {
-  @apply font-mono font-black lg:text-lg;
+  @apply font-mono text-center font-black lg:text-lg;
 }
 
 .center-content {
   @apply flex flex-col justify-center items-center;
 }
 
-a:link:active {
-  color: purple;
+.active {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
 }
 
 address {

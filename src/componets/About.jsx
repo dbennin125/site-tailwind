@@ -3,8 +3,11 @@ import { Link } from "react-scroll";
 
 export const About = () => {
   return (
-    <div className="h-screen center-content px-3" id="about">
-      <p className="about-font mb-10">
+    <div
+      className="h-screen center-content t-20 pt-20 px-3 mt-22 bg-white"
+      id="about"
+    >
+      <p className="about-font mt-7 pb-10 ">
         I’m a full stack software engineer with a knack for crafting clean,
         tested, and modular code. With a keen eye on the end goal, whether in a
         mob, pairs, or solo, I take pride in executing the task, solving
@@ -13,18 +16,22 @@ export const About = () => {
         is always the objective. I own a very cute dog who has been known to
         make appearances on Zoom calls.
       </p>
-      <img className="h-1/3 w-auto" src="/festiveGus.jpg" alt="Gus the dog" />
+      <img
+        className="shadow-md h-2/5 w-auto"
+        src="/festiveGus.jpg"
+        alt="Gus the dog"
+      />
       <Link
-        className="pt-8 cursor-pointer"
+        className="pt-8 cursor-pointer shadow-black "
         activeClass="active"
         spy={true}
         smooth={true}
-        offset={-65}
+        offset={4}
         duration={750}
         to="tech"
       >
         <svg
-          className="w-6 h-6 mr-3"
+          className="w-7 h-7 mb-3"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
