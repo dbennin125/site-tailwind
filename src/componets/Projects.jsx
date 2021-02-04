@@ -3,8 +3,9 @@ import { Link } from "react-scroll";
 
 export const Projects = () => {
   return (
+
     <div className="h-screen center-content px-5 t-20 pt-20 mt-3" id="tech">
-      <p>Under construction</p>
+      <p>Coming soon.</p>
       <Link
         className="py-2 cursor-pointer hover:shadow-2xl"
         activeClass="active"
